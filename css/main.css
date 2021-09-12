@@ -1,6 +1,7 @@
 body {
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
 
 .menu-principal {
@@ -18,16 +19,17 @@ main {
 .logo {
     float: left;
     padding: 16px;
-    width: 50%;
+    width: 70%;
 }
 
 .redes-sociais ul li {
+    margin-left: 25px;
     display: inline-block;
     float: left;
     list-style: none;
 }
 
 .redes-sociais {
-    width: 10%;
-    float: left;
+    width: 25%;
+    float: right;
 }
