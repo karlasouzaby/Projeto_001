@@ -33,3 +33,33 @@ main {
     width: 25%;
     float: right;
 }
+
+.header-2 {
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+}
+
+.menu ul li a {
+    display: inline-block;
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+}
