@@ -4,6 +4,10 @@ body {
     margin: 0 auto;
 }
 
+ul {
+    padding: 0px!important;
+}
+
 .menu-principal {
     width: 100%;
     background-color: #252323;
@@ -36,8 +40,14 @@ main {
 
 .header-2 {
     background-color: #ffffff;
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-urls {
     border-bottom: 3px solid #efefef;
+    height: 80px;
 }
 
 .menu ul li {
@@ -62,4 +72,10 @@ main {
 .busca {
     width: 30%;
     float: right;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
