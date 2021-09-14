@@ -54,6 +54,15 @@ main {
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
+    height: 44px;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
 }
 
 .menu ul li a {
