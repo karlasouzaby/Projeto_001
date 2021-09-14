@@ -70,8 +70,20 @@ main {
 }
 
 .busca {
+    text-align: center;
     width: 30%;
     float: right;
+}
+
+.busca input {
+    width: 190px;
+    height: 36px;
+    margin-top: 10px;
+    padding: 12px;
+    background-image: url('../img/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
 }
 
 .col-100 {
