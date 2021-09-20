@@ -109,6 +109,20 @@ button.slick-prev {
     background-color: transparent;
     position: absolute;
     z-index: 9;
-    top: 20%;
+    top: 35%;
+    left: 10%;
     background-image: url('../img/anterior.png');
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    right: 10%;
+    background-image: url('../img/proximo.png');
 }
