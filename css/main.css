@@ -126,3 +126,21 @@ button.slick-next {
     right: 10%;
     background-image: url('../img/proximo.png');
 }
+
+.slider-principal {
+    width: 100%!important;
+    position: relative;
+}
+
+ul.slick-dots li button {
+    font-size: 0px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+ul.slick-dots li.slick-active {
+    background-color: #00bac6;
+}
