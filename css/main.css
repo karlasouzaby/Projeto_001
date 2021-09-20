@@ -132,13 +132,13 @@ button.slick-next {
     position: relative;
 }
 
-ul.slick-dots li button {
+ul.slick-dots li {
+    display: inline-block;
     font-size: 0px;
     border: 3px solid #ffffff;
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    float: left;
 }
 
 ul.slick-dots li.slick-active {
