@@ -144,3 +144,21 @@ ul.slick-dots li {
 ul.slick-dots li.slick-active {
     background-color: #00bac6;
 }
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {}
+
+.slick-dots {
+    margin: 0 auto;
+}
+
+.slick-dots li {
+    display: inline-block;
+}
