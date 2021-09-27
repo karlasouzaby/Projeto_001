@@ -125,6 +125,8 @@ button.slick-next {
     top: 35%;
     right: 10%;
     background-image: url('../img/proximo.png');
+    top: 35%;
+    right: 14%;
 }
 
 .slider-principal {
@@ -153,12 +155,29 @@ ul.slick-dots li.slick-active {
     overflow: hidden;
 }
 
-.slick-dots li button {}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
 .slick-dots {
     margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 22%;
+    top: 85%;
+}
+
+li.slick-active button {
+    background: #00bac6;
 }
 
 .slick-dots li {
+    padding-left: 10px;
     display: inline-block;
 }
