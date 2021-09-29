@@ -42,7 +42,7 @@ main {
     background-color: #ffffff;
     width: 980px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 16px;
 }
 
 .menu-urls {
@@ -54,7 +54,7 @@ main {
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
-    height: 44px;
+    height: 50px;
 }
 
 .menu ul li a:hover {
@@ -66,7 +66,6 @@ main {
 }
 
 .menu ul li a {
-    display: inline-block;
     color: #8b8b8b;
     text-decoration: none;
     font-size: 18px;
@@ -110,7 +109,7 @@ button.slick-prev {
     position: absolute;
     z-index: 9;
     top: 35%;
-    left: 10%;
+    left: 14%;
     background-image: url('../img/anterior.png');
 }
 
@@ -123,38 +122,18 @@ button.slick-next {
     position: absolute;
     z-index: 9;
     top: 35%;
-    right: 10%;
     background-image: url('../img/proximo.png');
-    top: 35%;
     right: 14%;
 }
 
-.slider-principal {
-    width: 100%!important;
-    position: relative;
-}
 
-ul.slick-dots li {
-    display: inline-block;
-    font-size: 0px;
-    border: 3px solid #ffffff;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
 }
-
-ul.slick-dots li.slick-active {
-    background-color: #00bac6;
-}
-
 .slick-list {
     width: 100%!important;
 }
-
 .slick-initialized {
     overflow: hidden;
 }
-
 .slick-dots li button {
     font-size: 0px;
     border: 5px solid #ffffff;
@@ -164,20 +143,20 @@ ul.slick-dots li.slick-active {
     border-radius: 50%;
     cursor: pointer;
 }
-
 .slick-dots {
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 22%;
-    top: 85%;
+    left: 50%;
+    top: 490px;
 }
-
 li.slick-active button {
     background: #00bac6;
 }
-
 .slick-dots li {
     padding-left: 10px;
     display: inline-block;
+}
+.text-destaque {
+    text-align: center;
 }
