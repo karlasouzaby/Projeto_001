@@ -14,7 +14,8 @@ ul {
     height: 60px;
 }
 
-main {
+main,
+.content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -126,14 +127,14 @@ button.slick-next {
     right: 14%;
 }
 
-
-}
 .slick-list {
     width: 100%!important;
 }
+
 .slick-initialized {
     overflow: hidden;
 }
+
 .slick-dots li button {
     font-size: 0px;
     border: 5px solid #ffffff;
@@ -143,20 +144,36 @@ button.slick-next {
     border-radius: 50%;
     cursor: pointer;
 }
+
 .slick-dots {
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 50%;
-    top: 490px;
+    left: 45%;
+    top: 480px;
 }
+
 li.slick-active button {
     background: #00bac6;
 }
+
 .slick-dots li {
     padding-left: 10px;
     display: inline-block;
 }
+
 .text-destaque {
     text-align: center;
+}
+
+.text-destaque strong {
+    color: #646464;
+}
+
+.text-destaque h1 {
+    color: #818181;
+}
+
+.text-destaque p {
+    color: #9a9a9a;
 }
