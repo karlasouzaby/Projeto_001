@@ -171,9 +171,12 @@ li.slick-active button {
 }
 
 .text-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
     color: #818181;
 }
 
 .text-destaque p {
+    font-size: 15px;
     color: #9a9a9a;
 }
