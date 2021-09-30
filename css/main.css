@@ -180,3 +180,15 @@ li.slick-active button {
     font-size: 15px;
     color: #9a9a9a;
 }
+
+.col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.bloco-text {
+    float: left;
+}
