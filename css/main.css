@@ -96,7 +96,7 @@ main,
 }
 
 .col-100 {
-    width: 100%;
+    width: 110%;
     float: left;
     position: relative;
 }
@@ -229,4 +229,23 @@ h3 {
     background-image: url('../img/setinha.png');
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.col-4 {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img {
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+}
+
+.col-4 img:houver {
+    margin-top: 10px!important;
+    position: relative!important;
 }
